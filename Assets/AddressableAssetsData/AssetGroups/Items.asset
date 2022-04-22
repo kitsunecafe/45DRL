@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  m_GroupName: Items
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b459edf91ff94c24aa1bc6305bf332ab
+  m_SerializeEntries:
+  - m_GUID: 23cc7a0886b7b3e428c09669ed8c4e29
+    m_Address: Chain Shirt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Armor
+  - m_GUID: 629cdf2c09ac53c458671d6b95ca35b1
+    m_Address: Club
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: 30386edbec9d891429327f9166597254
+    m_Address: Dagger
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: ebef95b7560703f44ad9566aac2d400e
+    m_Address: Greatclub
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: 1d1a082b737b1f245980929055e09b31
+    m_Address: Handaxe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: f4b63a841a8aa8448bf5e7bf0b5a5ee4
+    m_Address: Leather Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Armor
+  - m_GUID: 26ee0a5978cd53a4ab9fb0546c06e9a1
+    m_Address: Light Hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: 96d393585b6d5c94c800d695fcf8b40c
+    m_Address: Longsword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: a1ea69318fc20dd40a2508c89d423259
+    m_Address: Mace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: 6f34b4a6231cf7144af270601005b9a1
+    m_Address: Padded Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Armor
+  - m_GUID: 6d147c5f62dd7a74ca95db437855badb
+    m_Address: Quarterstaff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Items
+    - Item
+    - Weapon
+  - m_GUID: 7637d2fafd08af44ba0d3d204534dcdf
+    m_Address: Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7090edb9681ee3242aa0c64cbdc153ff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 928be6d4adad2fb428e5148ec0cccb03, type: 2}
+    - {fileID: 11400000, guid: 15a082d97b136884789b074332aed311, type: 2}

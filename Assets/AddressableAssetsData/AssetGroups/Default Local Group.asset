@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6d9fce1fe3d0d4741a9cc01ff7ad3d3f
+  m_SerializeEntries:
+  - m_GUID: 6b2fd850a49dedb44b7dd5b243cf28b9
+    m_Address: Assets/ScriptableObjects/LootTables/EmptyTable.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loot
+  - m_GUID: 45c94c15b99671d49bea968d5b8e7591
+    m_Address: Assets/ScriptableObjects/LootTables/LootTable_Test.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loot
+  - m_GUID: ad201dddfcc158f40a0709af82fc80c2
+    m_Address: Assets/ScriptableObjects/LootTables/Loot Entries/EquipmentLoot.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loot
+  - m_GUID: 646a399890020804eaec1d5d9a659bd6
+    m_Address: Assets/ScriptableObjects/LootTables/Loot Entries/LightArmorLoot.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loot
+  - m_GUID: d964079b70d266e47a1f361dd24becfe
+    m_Address: Assets/ScriptableObjects/LootTables/Loot Entries/SimpleMeleeLoot.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loot
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7090edb9681ee3242aa0c64cbdc153ff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 126d5f72c51a84c42b36c139c027db56, type: 2}
+    - {fileID: 11400000, guid: 61ff3e70c4a91f04cbc473c8467af53c, type: 2}

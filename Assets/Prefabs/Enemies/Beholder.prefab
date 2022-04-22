@@ -1,0 +1,788 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2997784067408861505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2997784067408861506}
+  - component: {fileID: 2997784067408861507}
+  - component: {fileID: 2997784067408861504}
+  - component: {fileID: 108809950933707282}
+  - component: {fileID: 2997784067408861533}
+  - component: {fileID: -917559717189187996}
+  - component: {fileID: -3900375500981081894}
+  - component: {fileID: 2997784067408861534}
+  - component: {fileID: 2997784067408861535}
+  - component: {fileID: 2997784067408861532}
+  - component: {fileID: 2997784067408861531}
+  - component: {fileID: 2997784067408861528}
+  - component: {fileID: -6983488010989438078}
+  - component: {fileID: 8006437711184929471}
+  - component: {fileID: 2997784067408861529}
+  - component: {fileID: -5631550133584451493}
+  - component: {fileID: 2997784067408861525}
+  - component: {fileID: 5341479982936202523}
+  - component: {fileID: -1180664976481398570}
+  - component: {fileID: -2198310823245630458}
+  - component: {fileID: 379107929866395705}
+  m_Layer: 0
+  m_Name: Beholder
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2997784067408861506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2997784067408861507
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -3024092795421083439, guid: 659523e7a4f17fb4f8b62c3c6ed6cae8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &2997784067408861504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &108809950933707282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f400d8f03c6a6c489a7cfaad52dfac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    _usage: 0
+    _value: Beholder
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &2997784067408861533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fb190fae0e69143bd6e614cf5d5e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth:
+    baseValue:
+      _usage: 0
+      _value: 7
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 7
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  currentHealth:
+    _usage: 0
+    _value: 0
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  abilities: {fileID: -917559717189187996}
+  Healed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5631550133584451493}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.EntityLogger, Assembly-CSharp
+        m_MethodName: OnHealthChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Damaged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5631550133584451493}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.EntityLogger, Assembly-CSharp
+        m_MethodName: OnHealthChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Died:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5631550133584451493}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.EntityLogger, Assembly-CSharp
+        m_MethodName: OnDie
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8006437711184929471}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.ItemDrop, Assembly-CSharp
+        m_MethodName: DropRandomItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: -6983488010989438078}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.ExperienceReward, Assembly-CSharp
+        m_MethodName: Handle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2997784067408861525}
+        m_TargetAssemblyTypeName: JuniperJackal.SelfDestructor, Assembly-CSharp
+        m_MethodName: DestroySelf
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-917559717189187996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b448e1c87ab04743b2b6bcaf12acc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength:
+    baseValue:
+      _usage: 0
+      _value: 10
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 10
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  dexterity:
+    baseValue:
+      _usage: 0
+      _value: 14
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 14
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  constitution:
+    baseValue:
+      _usage: 0
+      _value: 18
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 18
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  intelligence:
+    baseValue:
+      _usage: 0
+      _value: 17
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 17
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  wisdom:
+    baseValue:
+      _usage: 0
+      _value: 15
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 15
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+  charisma:
+    baseValue:
+      _usage: 0
+      _value: 17
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    value:
+      _usage: 0
+      _value: 17
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+--- !u!114 &-3900375500981081894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e21e3a8d9b444f43b3109711218da67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory:
+    _usage: 0
+    _value:
+      items: []
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  mainHand:
+    _usage: 0
+    _value: {fileID: 11400000, guid: 6a46e51e2f81c884a9c9d03330294988, type: 2}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  offHand:
+    _usage: 0
+    _value: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  helmet:
+    _usage: 0
+    _value: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  armor:
+    _usage: 0
+    _value: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  accessory1:
+    _usage: 0
+    _value: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  accessory2:
+    _usage: 0
+    _value: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &2997784067408861534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd6de33f7f638342aa30a849ca89abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTurn: {fileID: 11400000, guid: 2833b38698a8fe94cbb7010fdcfdf5ea, type: 2}
+  endTurnAfterAction: 0
+  changeTurnEvent: {fileID: 11400000, guid: dc18f99c32df81e4585091988ec605e5, type: 2}
+  actions:
+  - {fileID: 2997784067408861535}
+  - {fileID: 2997784067408861532}
+  defaultAction: {fileID: 0}
+  NextTile: {x: 0, y: 0}
+--- !u!114 &2997784067408861535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0211eea53daa90468b5663803b85151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 2997784067408861534}
+  moveSpeed: 10
+  collider: {fileID: 2997784067408861504}
+--- !u!114 &2997784067408861532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc6f5adab82406459c4ebc1c72726fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 2997784067408861534}
+  abilities: {fileID: -917559717189187996}
+  equipment: {fileID: -3900375500981081894}
+  attackTag: {fileID: 11400000, guid: ef97ca8c6723cca43b482ff06231c786, type: 2}
+  Attacked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5631550133584451493}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.EntityLogger, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2997784067408861531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd577814360edf4d9f40f2b32555b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 6
+--- !u!114 &2997784067408861528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68295610110b4aa419ac4f8e98a1cceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 2997784067408861529}
+  enemies: {fileID: 11400000, guid: 85fb68e97f4616349a54ceffcf0e5db1, type: 2}
+--- !u!114 &-6983488010989438078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2b832011a65ef49a27d2df268a273a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 25
+--- !u!114 &8006437711184929471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f16d3b05d51e514b8af3cc1000fe155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootTable: {fileID: 11400000, guid: 2e846d66759f8ae40b3ab66c1d7f76d9, type: 2}
+  prefab: {fileID: 8910309400660888034, guid: ccced699de96c0e418dd9361cdecba59, type: 3}
+  parent: {fileID: 0}
+--- !u!114 &2997784067408861529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae71d75fc0bdc5c47bff90a39be36cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 2997784067408861534}
+  fov: {fileID: 2997784067408861531}
+--- !u!114 &-5631550133584451493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41780da1d5b14b440ad02f8afa1efdf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 51477953626112
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  critical:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 61999650422784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  wait:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  waitCancelled:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  recover:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 2879125167910912
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  damage:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 60598132129792
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  miss:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 60550010880000
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  die:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+    m_TableEntryReference:
+      m_KeyId: 60900340121600
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  stringTable:
+    m_TableReference:
+      m_TableCollectionName: GUID:590242649533e76419d5e028f01de22e
+  logEvent: {fileID: 11400000, guid: 782373cb5831bc34ebc01734cf90ce24, type: 2}
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &2997784067408861525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86a75e15dff94594fbdd06541c710fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5341479982936202523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775f7409782fa4b619d9153405dd1c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2997784067408861534}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.EntityController, Assembly-CSharp
+        m_MethodName: HandleTurnChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2997784067408861531}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.FieldOfView, Assembly-CSharp
+        m_MethodName: Calculate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 1
+  _eventReference:
+    _usage: 2
+    _event: {fileID: 0}
+    _eventInstancer: {fileID: 0}
+    _variable: {fileID: 11400000, guid: e63748d8ea4708d488cef79625a46436, type: 2}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &-1180664976481398570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2458933140c54c9db0aec7a69c1b617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2997784067408861531}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.FieldOfView, Assembly-CSharp
+        m_MethodName: OnMapGeneration
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 1
+  _eventReference:
+    _usage: 0
+    _event: {fileID: 11400000, guid: 01e2579f5149b9f42a0bd4e5f7a66573, type: 2}
+    _eventInstancer: {fileID: 0}
+    _collection: {fileID: 0}
+    _list: {fileID: 0}
+    _collectionInstancer: {fileID: 0}
+    _listInstancer: {fileID: 0}
+--- !u!114 &-2198310823245630458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64882d9a6a5104b579ad078658f093c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2997784067408861531}
+        m_TargetAssemblyTypeName: JuniperJackal.Entity.FieldOfView, Assembly-CSharp
+        m_MethodName: OnTilemapColliderChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 1
+  _eventReference:
+    _usage: 0
+    _event: {fileID: 11400000, guid: 5955edfcff7fe214194945862150eb5c, type: 2}
+    _eventInstancer: {fileID: 0}
+    _variable: {fileID: 11400000, guid: 7135cb388eeb49744a45373f4f9eb8e4, type: 2}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &379107929866395705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997784067408861505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3570dca9cf8f40ac9731ef4082c9a4ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tags:
+  - {fileID: 11400000, guid: 69160558d2185b445b193a7a8f0e1a92, type: 2}
+  - {fileID: 0}

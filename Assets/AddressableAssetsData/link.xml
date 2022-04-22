@@ -1,0 +1,57 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="JuniperJackal.Entity.ArmorClassAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.CharismaAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.ConstitutionAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.DamageAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.DescriptionAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.DexterityAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.EquipmentSlotAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.FinesseProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.HeavyProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.IntAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.IntelligenceAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.Item" preserve="all" />
+    <type fullname="JuniperJackal.Entity.ItemProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.LightProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.LootTable" preserve="all" />
+    <type fullname="JuniperJackal.Entity.MeleeProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.NameAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.NotDroppableProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.SpriteAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.StrengthAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Entity.TwoHandedProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.VersatileProperty" preserve="all" />
+    <type fullname="JuniperJackal.Entity.WisdomAttribute" preserve="all" />
+    <type fullname="JuniperJackal.Loot" preserve="all" />
+    <type fullname="JuniperJackal.Entity.LootTable/RarityWeight" preserve="nothing" serialized="true" />
+    <type fullname="JuniperJackal.Entity.Rarity" preserve="nothing" serialized="true" />
+    <type fullname="JuniperJackal.Loot/WeightedItem" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Localization.Locale" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+  </assembly>
+</linker>

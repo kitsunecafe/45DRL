@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdbbdbe4268c4d729a51bde5e681e8c, type: 3}
+  m_Name: PlayerName
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _id: 
+  _value: M
+  _changed: {fileID: 11400000, guid: 7f53df87d0bccaa49b8665cba363c18d, type: 2}
+  _changedWithHistory: {fileID: 0}
+  _triggerChangedOnOnEnable: 1
+  _triggerChangedWithHistoryOnOnEnable: 0
+  _oldValue: Player
+  _initialValue: Player
+  _preChangeTransformers: []

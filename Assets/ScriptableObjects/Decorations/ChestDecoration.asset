@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fccb7ed869a994eb7d1961272fab02, type: 3}
+  m_Name: ChestDecoration
+  m_EditorClassIdentifier: 
+  Decoration:
+    prefab: {fileID: 5659198238750157485, guid: 30ff4a1829a01e84eb3db6e2bc903a55, type: 3}
+    minimumPerRoom: 1
+    maximumPerRoom: 3
+    hasMaximumInstances: 0
+    maximumInstances: 0

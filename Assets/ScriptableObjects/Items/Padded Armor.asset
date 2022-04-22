@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1692669689202049042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3691e1c26969845857fd8e157abb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 3
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9533cff37ab2b0f4ca30519c0e7db004, type: 3}
+  m_Name: Padded Armor
+  m_EditorClassIdentifier: 
+  Attributes:
+  - {fileID: 5468537790548631354}
+  - {fileID: 8614514397648427699}
+  - {fileID: 1829626810383906370}
+  - {fileID: -1692669689202049042}
+--- !u!114 &1829626810383906370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4906a30b972c5a04a9bcf0185d8134f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: {fileID: -3473323499173508656, guid: 659523e7a4f17fb4f8b62c3c6ed6cae8, type: 3}
+--- !u!114 &5468537790548631354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a554bda286f563e4e924317ab66315c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: Padded Armor
+--- !u!114 &8614514397648427699
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c20e312aa226924ea29a28644f48242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 1
